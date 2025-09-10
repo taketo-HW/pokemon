@@ -21,6 +21,24 @@ wheels/
 *.egg
 MANIFEST
 
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
 # Virtual environments
 .env
 .venv
